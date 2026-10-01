@@ -72,10 +72,24 @@
 {/if}
 
 <style>
-  .img{
-    max-width: 320px;
-    max-height: 320px;
-    width: 100%;
-    height: 100%;
-  }
+.global{
+  font-family: 'Courier New', Courier, monospace;
+}
+.grid-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        gap: 12px;
+        padding: 16px;
+        background-color: #fff;
+        border-radius: 8px;
+        width: 500px;
+        aspect-ratio: 1/1;
+    }
+.img{
+  max-width: 320px;
+  max-height: 320px;
+  width: 100%;
+  height: 100%;
+}
 </style>
