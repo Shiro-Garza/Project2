@@ -34,7 +34,11 @@
 
 <h1>Cookbook</h1>
 
-<img src="https://cdn.creazilla.com/cliparts/7794374/cooking-pot-clipart-lg.png" alt="cooking pot image">
+<div class="row">
+  <div class="img">
+    <img src="https://thumbs.dreamstime.com/b/cookbook-25406156.jpg" alt="cooking pot image">
+  </div>
+</div>
 
 <div class="row">
   <div>
@@ -68,11 +72,10 @@
 {/if}
 
 <style>
-  :global(body) { font-family: sans-serif; max-width: 900px; margin: 0 auto; padding: 1rem; }
-  svg { width: 100%; max-width: 320px; height: auto; }
-  .row { display: flex; flex-wrap: wrap; gap: 1rem; }
-  .row > div { flex: 1 1 300px; }
-  input, textarea { display: block; width: 100%; margin-bottom: 0.5rem; box-sizing: border-box; }
-  p { white-space: pre-wrap; }
-  .link { background: none; border: none; color: blue; text-decoration: underline; cursor: pointer; }
+  .img{
+    max-width: 320px;
+    max-height: 320px;
+    width: 100%;
+    height: 100%;
+  }
 </style>
