@@ -72,7 +72,7 @@
 {/if}
 
 <style>
-.global{
+:global(body){
   font-family: 'Courier New', Courier, monospace;
 }
 .grid-container{
