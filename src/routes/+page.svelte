@@ -34,13 +34,7 @@
 
 <h1>Cookbook</h1>
 
-<svg viewBox="0 0 240 180" role="img" aria-label="A blue pot on a yellow background">
-  <rect width="240" height="180" fill="#f2d64b" />
-  <rect x="48" y="70" width="144" height="12" rx="6" fill="#2b2e6b" />
-  <path d="M56 82h128v42a30 30 0 0 1-30 30H86a30 30 0 0 1-30-30z" fill="#3b3f8f" />
-  <rect x="24" y="92" width="32" height="10" rx="5" fill="#2b2e6b" />
-  <rect x="184" y="92" width="32" height="10" rx="5" fill="#2b2e6b" />
-</svg>
+<img src="https://cdn.creazilla.com/cliparts/7794374/cooking-pot-clipart-lg.png" alt="cooking pot image">
 
 <div class="row">
   <div>
